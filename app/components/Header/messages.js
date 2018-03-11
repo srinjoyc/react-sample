@@ -14,4 +14,8 @@ export default defineMessages({
     id: 'boilerplate.components.Header.features',
     defaultMessage: 'Features',
   },
+  sajjad: {
+    id: 'boilerplate.components.Header.sajjad',
+    defaultMessage: 'Sajjad',
+  },
 });

@@ -12,6 +12,8 @@ import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { createStructuredSelector } from 'reselect';
 
+
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import injectReducer from 'utils/injectReducer';
 import injectSaga from 'utils/injectSaga';
 import { makeSelectRepos, makeSelectLoading, makeSelectError } from 'containers/App/selectors';
@@ -56,6 +58,7 @@ export class HomePage extends React.PureComponent { // eslint-disable-line react
         <div>
           <CenteredSection>
             <H2>
+            <Button> Btn </Button>
               <FormattedMessage {...messages.startProjectHeader} />
             </H2>
             <p>
